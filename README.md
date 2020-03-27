@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+allows us to provide authentication through cookies, also allows us to end a session by removing it from a DB
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+it hashs your password by whatever amount of rounds you want, i.e 8,10,12 
 
 - [ ] What does bcrypt do to slow down attackers?
 
+makes it so the attacker has to try every comboniation of letters predermined by the amount of rounds, uses a secret 
+
 - [ ] What are the three parts of the JSON Web Token?
+
+options payload(i.e username) secert
 
 ## Minimum Viable Product
 

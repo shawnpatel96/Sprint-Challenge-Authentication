@@ -6,7 +6,7 @@ describe('authentication', ()=>{
     describe('POST /register',()=>{
     it('should return new user', ()=>{
         return request(server).post('/api/auth/register')
-            .send({username: 'shawn12', password: '1234'})
+            .send({username: 'shawn12456', password: '1234'})
             .then(res=>{
                 expect(res.status).toBe(201);
             })
